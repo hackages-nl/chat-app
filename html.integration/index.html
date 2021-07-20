@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hackjam Chatting Application</title>
+    <link rel="stylesheet" href="./assets/css/fontawesome.css" />
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <sidebar class="left-sidebar">
+        <div class="ph-head">
+          <div class="ph-head-profile">
+            <img src="assets/img/profile01.png" alt="" />
+            <h4>Jawad</h4>
+          </div>
+          <div class="ph-head-options">
+            <button class="message-ph">
+              <i class="fas fa-envelope"></i>
+            </button>
+            <button class="dots-ph">
+              <i class="fas fa-ellipsis-v"></i>
+            </button>
+          </div>
+        </div>
+        <div class="search">
+          <form>
+            <label for="search"><i class="fas fa-search"></i></label>
+            <input
+              type="text"
+              name="search"
+              id="search"
+              placeholder="Search messages or users"
+            />
+          </form>
+        </div>
+        <h3 class="chat-list-title">Chat List</h3>
+        <div class="chat-list">
+          <!-- Person Chat -->
+          <div class="person-chat">
+            <img src="assets/img/profile02.png" alt="" />
+            <div>
+              <div class="chat-top">
+                <h4>Boris Doe</h4>
+                <span class="lastmsg-time">4:32</span>
+              </div>
+
+              <p class="last-msg">Let’s meet on 3pm today</p>
+            </div>
+          </div>
+          <!-- Person Chat -->
+          <div class="person-chat active">
+            <img src="assets/img/profile03.png" alt="" />
+            <div>
+              <div class="chat-top">
+                <h4>Boris Doe</h4>
+                <span class="lastmsg-time">4:32</span>
+              </div>
+
+              <p class="last-msg">Let’s meet on 3pm today</p>
+            </div>
+          </div>
+          <!-- Person Chat -->
+          <div class="person-chat">
+            <img src="assets/img/profile01.png" alt="" />
+            <div>
+              <div class="chat-top">
+                <h4>Boris Doe</h4>
+                <span class="lastmsg-time">4:32</span>
+              </div>
+
+              <p class="last-msg">Let’s meet on 3pm today</p>
+            </div>
+          </div>
+          <!-- Person Chat -->
+          <div class="person-chat">
+            <img src="assets/img/profile03.png" alt="" />
+            <div>
+              <div class="chat-top">
+                <h4>Boris Doe</h4>
+                <span class="lastmsg-time">4:32</span>
+              </div>
+
+              <p class="last-msg">The web app was awesome!</p>
+            </div>
+          </div>
+          <!-- Person Chat -->
+          <div class="person-chat">
+            <img src="assets/img/profile02.png" alt="" />
+            <div>
+              <div class="chat-top">
+                <h4>Boris Doe</h4>
+                <span class="lastmsg-time">4:32</span>
+              </div>
+
+              <p class="last-msg">The web app was awesome!</p>
+            </div>
+          </div>
+          <!-- Person Chat -->
+          <div class="person-chat">
+            <img src="assets/img/profile01.png" alt="" />
+            <div>
+              <div class="chat-top">
+                <h4>Boris Doe</h4>
+                <span class="lastmsg-time">4:32</span>
+              </div>
+
+              <p class="last-msg">The web app was awesome!</p>
+            </div>
+          </div>
+          <!-- Person Chat -->
+          <div class="person-chat">
+            <img src="assets/img/profile02.png" alt="" />
+            <div>
+              <div class="chat-top">
+                <h4>Boris Doe</h4>
+                <span class="lastmsg-time">4:32</span>
+              </div>
+
+              <p class="last-msg">The web app was awesome!</p>
+            </div>
+          </div>
+          <!-- Person Chat -->
+          <div class="person-chat">
+            <img src="assets/img/profile01.png" alt="" />
+            <div>
+              <div class="chat-top">
+                <h4>Boris Doe</h4>
+                <span class="lastmsg-time">4:32</span>
+              </div>
+
+              <p class="last-msg">The web app was awesome!</p>
+            </div>
+          </div>
+          <!-- Person Chat -->
+          <div class="person-chat">
+            <img src="assets/img/profile03.png" alt="" />
+            <div>
+              <div class="chat-top">
+                <h4>Boris Doe</h4>
+                <span class="lastmsg-time">4:32</span>
+              </div>
+
+              <p class="last-msg">The web app was awesome!</p>
+            </div>
+          </div>
+          <!-- Person Chat -->
+          <div class="person-chat">
+            <img src="assets/img/profile02.png" alt="" />
+            <div>
+              <div class="chat-top">
+                <h4>Boris Doe</h4>
+                <span class="lastmsg-time">4:32</span>
+              </div>
+
+              <p class="last-msg">The web app was awesome!</p>
+            </div>
+          </div>
+        </div>
+      </sidebar>
+      <main>
+        <div class="converseation-head">
+          <div class="ch-profile">
+            <img src="assets/img/profile03.png" alt="" />
+            <div>
+              <h4>Adam Ali</h4>
+              <p class="status">Last seen today at 4:30</p>
+            </div>
+          </div>
+          <div class="more-info">
+            <button class="moreinfo-button">
+              <i class="fas fa-ellipsis-v"></i>
+            </button>
+            <ul class="dropdown-info">
+              <li>Contact info</li>
+              <li>Mute notification</li>
+              <li>Clear messages</li>
+              <li>Delete chat</li>
+            </ul>
+          </div>
+        </div>
+        <ul class="conversations">
+          <li>
+            <div class="conversation-list">
+              <div class="chat-avatar">
+                <img src="assets/img/profile03.png" alt="" />
+              </div>
+              <div class="user-chat-content">
+                <div class="ctext-wrap">
+                  <p>
+                    I’m still eat in angkringan. Maybe 15 minutes later I will
+                    send the files to you bro.
+                  </p>
+                  <p class="chat-time">12:21 pm</p>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="conversation-list">
+              <div class="chat-avatar">
+                <img src="assets/img/profile03.png" alt="" />
+              </div>
+              <div class="user-chat-content">
+                <div class="ctext-wrap">
+                  <p>
+                    I’m still eat in angkringan. Maybe 15 minutes later I will
+                    send the files to you bro.
+                  </p>
+                  <p class="chat-time">12:21 pm</p>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li class="right">
+            <div class="conversation-list">
+              <div class="chat-avatar">
+                <img src="assets/img/profile03.png" alt="" />
+              </div>
+              <div class="user-chat-content">
+                <div class="ctext-wrap">
+                  <p>
+                    I’m still eat in angkringan. Maybe 15 minutes later I will
+                    send the files to you bro.
+                  </p>
+                  <p class="chat-time">12:21 pm <i class="fas fa-check"></i></p>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="chat-day-title">
+              <span class="title">Today</span>
+            </div>
+          </li>
+          <li>
+            <div class="conversation-list">
+              <div class="chat-avatar">
+                <img src="assets/img/profile03.png" alt="" />
+              </div>
+              <div class="user-chat-content">
+                <div class="ctext-wrap">
+                  <p>
+                    I’m still eat in angkringan. Maybe 15 minutes later I will
+                    send the files to you bro.
+                  </p>
+                  <p class="chat-time">12:21 pm</p>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <div class="chat-input-section">
+          <div class="chat-input-section-wrap">
+            <div class="input-icons">
+              <button><i class="far fa-smile-wink"></i></button>
+              <button><i class="fas fa-paperclip"></i></button>
+            </div>
+            <form class="chat-input">
+              <input
+                type="text"
+                name="messageinput"
+                placeholder="Type a message..."
+              />
+              <button type="submit"><i class="far fa-paper-plane"></i></button>
+            </form>
+          </div>
+        </div>
+      </main>
+      <sidebar class="right-sidebar">
+        <div class="rh-top">
+          <i class="fas fa-times"></i>
+          <h3>Contact info</h3>
+        </div>
+        <div class="rs-content">
+          <div class="contact-profile">
+            <img src="./assets/img/profile01.png" alt="" />
+            <h4>Adam Ali</h4>
+            <p>Last seen at 4:30pm</p>
+          </div>
+          <div class="contact-media">
+            <div class="cm-top">
+              <h4>Media or Docs</h4>
+              <i class="fas fa-angle-right"></i>
+            </div>
+            <div class="contact-medias">
+              <img src="./assets/img/media01.png" alt="" />
+              <img src="./assets/img/media01.png" alt="" />
+              <img src="./assets/img/media01.png" alt="" />
+            </div>
+          </div>
+          <div class="contact-info">
+            <h4>About Contact</h4>
+            <p>I wasn’t programed to do so, i was forced instead</p>
+          </div>
+        </div>
+      </sidebar>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
